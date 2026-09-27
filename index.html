@@ -118,6 +118,17 @@ button:hover {
 </head>
 
 <body>
+    <audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playMusic()">🎵 Play Music</button>
+
+<script>
+function playMusic() {
+    document.getElementById("music").play();
+}
+</script>
 
     <h1>Hai Krithika</h1>
 
